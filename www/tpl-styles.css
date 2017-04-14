@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*PopHwidget*/
+.PopHwidget{
+margin: 0;
+padding: 0;
+height:270px;
+}
+.PopHwidget a.up, .PopHwidget a.down{
+display: block;
+width:52px;
+height:254px;
+margin: 0 auto;
+outline: none;
+border: 0px solid #bbb;
+}
+.PopHwidget a.up{
+ padding-right: 2px;
+ background:url(img/arr_sl_l.png) center center;
+ background-repeat:no-repeat;
+ }
+.PopHwidget a.down{
+ padding-left: 2px;
+ background:url(img/arr_sl_r.png) center center;
+ background-repeat:no-repeat;
+ }
+.PopHwidget .HjCarouselLite{
+margin: 0;
+padding: 0;
+float:left;
+}
+.PopHwidget .HjCarouselLite li{
+overflow: hidden;
+float: left;
+display: block;
+padding: 0;
+text-align: center;
+}
+.PopHwidget .HjCarouselLite li .rd_pop_slide{
+margin: 0 auto;
+margin-left: 5px;
+margin-right: 5px;
+padding: 2px;
+border: 0px solid #bbb;
+//height: 270px;
+height: 309px;
+width: 188px;
+}
+.PopHwidget .HjCarouselLite li:hover{
+border: 0px solid #8E8E8E;
+}
+
+
+
+.form-search input::-webkit-input-placeholder {color:#999; font-size:18px; line-height:18px}
+.form-search input::-moz-placeholder          {color:#999; font-size:18px; line-height:18px}/* Firefox 19+ */
+.form-search input:-moz-placeholder           {color:#999; font-size:18px; line-height:18px}/* Firefox 18- */
+.form-search input:-ms-input-placeholder      {color:#999; font-size:18px; line-height:18px}
+
+.form-search input::-webkit-input-placeholder       {text-indent: 0px; opacity:1;   transition: all 0.4s ease;}
+.form-search input::-moz-placeholder                {text-indent: 0px; opacity:1;   transition: all 0.4s ease;}
+.form-search input:-moz-placeholder                 {text-indent: 0px; opacity:1;   transition: all 0.4s ease;}
+.form-search input:-ms-input-placeholder            {text-indent: 0px; opacity:1;   transition: all 0.4s ease;}
+.form-search input:focus::-webkit-input-placeholder {text-indent: 200px; opacity:0; transition: all 0.8s ease;}
+.form-search input:focus::-moz-placeholder          {text-indent: 200px; opacity:0; transition: all 0.8s ease;}
+.form-search input:focus:-moz-placeholder           {text-indent: 200px; opacity:0; transition: all 0.8s ease;}
+.form-search input:focus:-ms-input-placeholder      {text-indent: 200px; opacity:0; transition: all 0.8s ease;}
+
+.ico-vk1, .ico-fb1, .ico-ut1, .ico-gp1, .ico-ig1, .ico-gu1{
+	background: url(img/sprites.png) no-repeat;
+}
+
+.ico-vk1{
+	background-position: -7px -7px ;
+	width: 37px;
+	height: 37px;
+}
+
+.ico-fb1{
+	background-position: -7px -57px ;
+	width: 37px;
+	height: 37px;
+}
+
+.ico-ut1{
+	background-position: -7px -105px ;
+	width: 37px;
+	height: 37px;
+}
+
+.ico-gp1{
+	background-position: -6px -157px ;
+	width: 37px;
+	height: 37px;
+}
+
+.ico-ig1{
+	background-position: -6px -207px ;
+	width: 37px;
+	height: 37px;
+}
+
+.ico-gu1{
+	background-position: -5px -257px ;
+	width: 37px;
+	height: 37px;
+}
+
+
+
