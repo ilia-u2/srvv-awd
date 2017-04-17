@@ -28,7 +28,7 @@
 <div class="row">
         <div class="col-md-2 hidden-sm hidden-xs"><img src="img/logo1.gif" width="86" height="106" /></div>
         <div class="col-sm-24 col-md-19">
-        <a href="/"><img src="img/logo_rus.png" class="center-block img-responsive" width="603" height="104" /></a></div>
+        <a href="#"><img src="img/logo_rus.png" class="center-block img-responsive" width="603" height="104" /></a></div>
         <div class="col-md-3 hidden-sm hidden-xs"><img src="img/logo3.gif" class="pull-right" width="134" height="106" /></div>
 </div>
 </div>
@@ -39,7 +39,6 @@
         <div class="col-lg-21 col-md-24 col-sm-24 col-xs-6">
 
 <div class="row">
-<!-- menu -->        
 <div class="col-lg-17 col-md-16 col-sm-14 col-xs-9 pull-left hidden-xs">
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -48,23 +47,25 @@
         <span class="icon-bar"></span>
       </button>
 <div class="navbar navbar-default pull-left navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+	<!-- top menu -->
 	<!-- ul class="nav navbar-nav">
-		<li><a href="/home/">SURPAT</a></li>
+		<li><a href="#">SURPAT</a></li>
 		<li class="active"><a href="/about/">Новости</a></li>
-		<li><a href="/services/">Доставка и оплата</a></li>
-		<li><a href="/partners/">Материалы и технологии</a></li>
-		<li><a href="/customers/">Дилеры</a></li>
-		<li><a href="/projects/">О Компании</a></li>
-		<li><a href="/careers/">Контакты</a></li>        
+		<li><a href="#">Доставка и оплата</a></li>
+		<li><a href="#">Материалы и технологии</a></li>
+		<li><a href="#">Дилеры</a></li>
+		<li><a href="#">О Компании</a></li>
+		<li><a href="#">Контакты</a></li>        
 	</ul -->
     <ul class="nav navbar-nav">
-		<li><a href="/shop.php">Интернет-магазин</a></li>
-		<li><a href="/surpat/">SURPAT</a></li>
-		<li><a href="/materials_and_technologies/">Материалы и технологии</a></li>
-		<li><a href="/catalog/new/">Новинки</a></li>
-		<li class="active"><a href="/about/">О Компании</a></li>
-		<li><a href="/contacts/">Контакты</a></li>
+		<li><a href="#">Интернет-магазин</a></li>
+		<li><a href="#">SURPAT</a></li>
+		<li><a href="#">Материалы и технологии</a></li>
+		<li><a href="#">Новинки</a></li>
+		<li class="active"><a href="#">О Компании</a></li>
+		<li><a href="#">Контакты</a></li>
 	</ul>
+    <!-- /top menu -->
 </div>
 </div>
 
@@ -85,9 +86,9 @@
 <div class="col-lg-24">
 <!-- auth -->
 <div class="row auth-view">
-<div class="auth-name col-lg-8 col-md-8 col-sm-8 col-xs-8"><a href="">Войти</a></div>
-<div class="reg col-lg-16 col-md-16 col-sm-16 col-xs-16 hidden-xs"><a href="">Регистрация</a></div>
-<div class="personal col-lg-24 col-md-24 col-xs-24 hidden-xs"><a href="">Личный кабинет</a></div>
+<div class="auth-name col-lg-8 col-md-8 col-sm-8 col-xs-8"><a href="#">Войти</a></div>
+<div class="reg col-lg-16 col-md-16 col-sm-16 col-xs-16 hidden-xs"><a href="#">Регистрация</a></div>
+<div class="personal col-lg-24 col-md-24 col-xs-24 hidden-xs"><a href="#">Личный кабинет</a></div>
 </div>
 <!-- /auth -->
 </div>
@@ -124,8 +125,7 @@
 </div>
 </div>
 <div class="content">
-<!-- c -->
-
+<!-- main-slider -->
 <div class="main-slider">
 	 <!-- слайдер на главной -->
 	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1250px; height: 646px; overflow: hidden; visibility: hidden;">
@@ -137,12 +137,13 @@
 			</div>
 		</div>
 		<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1250px; height: 646px; overflow: hidden;">
-<!-- -->	
-			<div data-p="225.00" style="display: none;">
-				<div style="position: absolute; bottom: 0px; left: 0px; width: 1250px; height: 646px;">
+<!-- slides -->	
+			
+            <div data-p="225.00" style="display: none;">
+				<div data-u="caption" data-t="5" style="position: absolute; top: 0px; left: 0px; width: 1250px; height: 646px;">
  				<img src="img/main_slider/sl1.png" data-u="image" style="width: 1250px; height: 646px;">
 				</div>
-				<div style="position: absolute; bottom: 200px; right: 110px; width: 500px; height: 160px; font-size: 14px; color: #000; text-align:left;">
+				<!-- div style="position: absolute; bottom: 200px; right: 110px; width: 500px; height: 160px; font-size: 14px; color: #000; text-align:left;">
 					<div style="font-family: 'Roboto Condensed'; font-weight:700; text-transform:uppercase; font-size:32px; border-bottom:1px solid #000;">
 						Разработчик и производитель военного снаряжения
 					</div>
@@ -152,8 +153,30 @@
 					<div style="font-family: 'Roboto Condensed'; font-weight:400; font-size:14px;">
 						Производитель снаряжения, одежды, кобур, чехлов для оружия, аксессуаров, тактических перчаток и обуви с 1991 года. В нашем магазине Вы всегда найдете высококачественную продукцию, которая тестирована в реальных боевых условиях.
 					</div>
-				</div>
+				</div -->
+                <div data-u="caption" data-t="0" style="position: absolute; bottom: 200px; right: 110px; width: 500px; height: 160px;">
+                    
+                    <!-- img style="position: absolute; top: 0px; left: 0px; width: 445px; height: 300px;" src="img/c-phone.png" / -->
+                    <div data-u="caption" data-t="1" style="position: absolute; top: 0px; left: 0px; font-family: 'Roboto Condensed'; font-weight:700; text-transform:uppercase; font-size:32px; border-bottom:1px solid #000; color:#000000;">
+						Разработчик и производитель военного снаряжения
+					</div>
+                    <div data-u="caption" data-t="2" style="position: absolute; top: 91px; left: 0px; font-family: 'Roboto Condensed'; font-weight:700; font-size:32px; color:#000000;">
+						экипировка, аксессуары для оружия
+					</div>
+                    <div data-u="caption" data-t="3" style="position: absolute; top: 136px; left: 0px; font-family: 'Roboto Condensed'; font-weight:400; font-size:14px; color:#000000;">
+						Производитель снаряжения, одежды, кобур, чехлов для оружия, аксессуаров, тактических перчаток и обуви с 1991 года. В нашем магазине Вы всегда найдете высококачественную продукцию, которая тестирована в реальных боевых условиях.
+					</div>
+                    <!-- img data-u="caption" data-t="1" style="position: absolute; top: 70px; left: 130px; width: 102px; height: 78px;" src="img/c-jssor-slider.png" / -->
+
+                    <!-- img data-u="caption" data-t="2" style="position: absolute; top: 153px; left: 163px; width: 80px; height: 53px;" src="img/c-text.png" / -->
+                    <!-- img data-u="caption" data-t="3" style="position: absolute; top: 60px; left: 220px; width: 140px; height: 90px;" src="img/c-fruit.png" / -->
+                    <!-- img data-u="caption" data-t="4" style="position: absolute; top: -123px; left: 121px; width: 200px; height: 155px;" src="img/c-navigator.png" / -->
+                
+                </div>
 			</div>
+            
+            
+            
 			 <!-- 2й слайдер на главной -->
 			<div data-p="225.00" style="display: none;">
 				<div style="position: absolute; bottom: 0px; left: 0px; width: 1250px; height: 646px;">
@@ -166,7 +189,7 @@
  				<img src="img/main_slider/sl11.jpg" data-u="image" style="width: 1250px; height: 646px;">
 				</div>
 			</div>
-<!-- / -->			 
+<!-- /slides -->			 
 		</div>
 		 <!-- Bullet Navigator -->
 		<div data-u="navigator" class="jssorb05" style="bottom:16px;right:116px;" data-autocenter="0">
@@ -177,7 +200,7 @@
 		 <!-- Arrow Navigator --> <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:130px;" data-autocenter="2"></span> <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:130px;" data-autocenter="2"></span>
 	</div>
 </div>
-<!-- /c -->
+<!-- /main-slider -->
 <div class="container">
 <div class="row">
         <div class="col-md-24 center-block">
@@ -225,17 +248,17 @@
         <div class="footercol footer1 col-lg-6 col-md-5 col-sm-0 col-xs-0 hidden-sm hidden-xs">
         <div class="footer-header">Карта сайта</div>
         <ul class="bottom-sitemap list-unstyled">
-			<li><a href="/surpat/">SURPAT</a></li>
-			<li><a href="/news/">Новости</a></li>
-			<li><a href="/delivery/" class="selected">Доставка и оплата</a></li>
-			<li><a href="/materials_and_technologies/">Материалы и технологии</a></li>
-			<li><a href="/dealers/">Дилеры</a></li>
-			<li><a href="/about/">О Компании</a></li>
-			<li><a href="/contacts/">Контакты</a></li>
+			<li><a href="#">SURPAT</a></li>
+			<li><a href="#">Новости</a></li>
+			<li><a href="#" class="selected">Доставка и оплата</a></li>
+			<li><a href="#">Материалы и технологии</a></li>
+			<li><a href="#">Дилеры</a></li>
+			<li><a href="#">О Компании</a></li>
+			<li><a href="#">Контакты</a></li>
 		</ul>
         </div>
         
-        <div class="footercol footer3  col-lg-8 col-md-7 col-sm-9 col-xs-24 pull-right hidden-xs">
+        <div class="footercol footer3  col-lg-8 col-md-7 col-sm-9 col-xs-24 pull-right col-sm-pull-15 col-md-pull-0 hidden-xs">
         
         <div class="footer-header">Контакты</div>
         
@@ -261,7 +284,7 @@
         
         </div>
         
-        <div class="footercol footer2 col-lg-10 col-md-12 col-sm-15 col-xs-24 pull-left hidden-xs">
+        <div class="footercol footer2 col-lg-10 col-md-12 col-sm-15 col-xs-24 pull-left col-sm-push-9 col-md-push-0 hidden-xs">
         
         <div class="row">
         <div class="social col-lg-14 col-md-14 col-sm-24"><div class="footer-header">Мы в соцсетях</div>
@@ -290,7 +313,7 @@
         <div class="footer-counters">
           <img src="img/hit.gif" width="88" height="15" /><img src="img/c2.png" width="80" height="15" />
         </div>
-        <div class="copyr">Все права защищены. Корпус выживания©</div>
+        <div class="copyr">Все права защищены. Корпус выживания &copy;</div>
         
         
         
@@ -304,14 +327,14 @@
                     <div class="btn-group dropup" role="group">
                     <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><br />Главная <span class="caret"></span> </a>
                     <ul class="dropdown-menu">
-                    	<li><a href="/surpat/">SURPAT</a></li>
-						<li class="disabled"><a href="/news/">Новости</a></li>
-						<li><a href="/delivery/" class="selected">Доставка и оплата</a></li>
-						<li><a href="/materials_and_technologies/">Материалы и технологии</a></li>
-						<li><a href="/dealers/">Дилеры</a></li>
+                    	<li><a href="#">SURPAT</a></li>
+						<li class="disabled"><a href="#">Новости</a></li>
+						<li><a href="#" class="selected">Доставка и оплата</a></li>
+						<li><a href="#">Материалы и технологии</a></li>
+						<li><a href="#">Дилеры</a></li>
                     	<li role="separator" class="divider"></li>
-						<li><a href="/about/">О Компании</a></li>
-						<li><a href="/contacts/">Контакты</a></li>
+						<li><a href="#">О Компании</a></li>
+						<li><a href="#">Контакты</a></li>
                     </ul>
                     </div>
                     <a href="#" class="btn btn-default" role="button"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><br />Мой профиль</a></a>
@@ -333,10 +356,9 @@
 </div>
 </footer>
 </div>    
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script -->
-   <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script -->
-   
+    <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script -->
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>   
 <script type="text/javascript" src="slick/slick.min.js"></script>   
 <script src="js/jcarousellite_1.0.1.min.js"></script>
